@@ -1,0 +1,205 @@
+.outer
+{
+	width:100%;
+	height:5000px;
+		background:blue;
+	filter:drop-shadow(16px 16px 20px blue);
+	
+}
+.fouter
+{
+	width:100%;
+	height:1000px;
+		background:blue;
+	filter:drop-shadow(16px 16px 20px blue);
+	
+}
+.outer-left{
+	width:90%;
+	margin:0px auto;
+	background:white;
+ height:4000px;
+	margin-left:5%;
+	max-width:1000px;
+}
+.fouter-left{
+	width:90%;
+	margin:0px auto;
+	background:white;
+	margin-left:5%;
+	height:1000px;
+	max-width:1000px;
+}
+.form-content
+{
+	margin-left:20px;
+}
+.form-content  h1{
+	margin-top:10px;
+	
+	opacity:0.7;
+	font-size:120%;
+	font-family:sans-serif,open sans;
+	
+}
+.details
+{
+	margin:10px;
+
+width:100%;	
+}
+.form-content  hr
+{
+    opacity:0.2;
+	margin-top:20px;
+	margin-left:-20px;
+}
+
+.form-content .details h1
+{  
+    margin-top:20px;
+	font-size:25px;
+	font-family:normal;
+	opacity:0.7;
+}
+
+.details .register .form-partition-1
+{
+	font-size:20px;
+	font-family:Arial;
+	margin-top:-20px;
+    height:500px;
+	font-weight:normal;
+	
+}
+	.details .register  p
+	{
+		opacity:0.5;
+		
+
+	}
+	
+.form-partition{
+width:100%;
+margin-left:10px;
+}
+
+.form-partition   input[type="text"],input[type="password"],select,input[type="date"],input[type="email"]
+  {
+	 
+	width:115%;
+	border:none;
+	height:35px;
+	font-size:17px;
+    margin-left:0px;
+	display:inline-block;
+	background:#ffeefe;
+	padding:0 15;
+	color:black;
+	border-radius:3px;
+	
+
+}
+input[type="date"]
+{
+	display:block;
+
+}
+ #dob,#gender,#mail,#mob,#guar-mob,#guar-name,#father-occup,#mother-occup,#cat,#city,#pin,#hsper,#in,#inroll,#inper,#inyear,#branch,#year,#uniroll,#pass{
+	margin-top:40px;
+}
+.left,.middle,.right
+{
+ font-size:20px;
+ float:left;
+ margin-left:10px;
+ padding:20 0;
+ margin-right:5%;
+}
+.details .register .form-partition-2,.form-partition-4,.form-partition-5
+{
+	font-size:20px;
+	font-family:Arial;
+	margin-top:-20px;
+    height:270px;
+	font-weight:normal;
+}
+
+.details .register .form-partition-3
+{
+	font-size:20px;
+	font-family:Arial;
+	margin-top:-20px;
+    height:380px;
+	font-weight:normal;
+}
+.control 
+{
+	margin-top:50px;
+}
+input[type="submit"]
+ {
+    border:none;
+	outline:none;
+	height:40px;
+	background:#1c8adb;
+	color:#fff;
+	border-radius:20px;
+	text-align:center;
+	margin-left:15%;
+	width:25%;
+	float:left;
+	
+	}
+	input[type="reset"]
+ {
+    border:none;
+	outline:none;
+	height:40px;
+	background:#1c8adb;
+	color:#fff;
+	border-radius:20px;
+	text-align:center;
+	margin-left:2%;
+	width:25%;
+	float:left;
+	
+	}
+ input[type="submit"]:hover,input[type="reset"]:hover{
+ 
+ cursor:pointer;
+ background:#39dc79;
+ color:#000;
+ }
+
+
+@media screen and (max-width:600px)
+{
+	.outer-left{
+		margin:25px auto 0;
+	}
+	.left,.middle,.right
+	{
+		width:80%;
+		
+        padding:10 0;
+
+	}
+	.form-partition
+	{
+		margin-left:0px;
+	}
+#dob,#gender,#mail,#mob,#guar-mob,#guar-name,#father-occup,#mother-occup,#cat,#dob,#fpass,
+#city,#pin,#hsper,#in,#inroll,#inper,#inyear,#branch,#year,#pass,#uniroll{
+		 margin-top:30px;
+	 }
+	 .details
+	 {
+		 margin:20px;
+		 width:100%;
+	 }
+}
+.error
+{
+	color:red;
+}
